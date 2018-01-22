@@ -42,6 +42,8 @@ def create_npy_data(train_imgs_path, is_extract_more_csf, is_train):
     print('Creating training 3d_patches...')
     print('-'*30)
 
+    print('Hello')
+
     # for each volume do:
     for img_dir_name in images_train_dir:
         patches_training_imgs_2d_temp = np.empty(shape=[0,patch_size,patch_size], dtype='int16')
